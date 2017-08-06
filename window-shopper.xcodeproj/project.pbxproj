@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EA3B4F431F371C97002B0F55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B4F421F371C97002B0F55 /* AppDelegate.swift */; };
-		EA3B4F451F371C97002B0F55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B4F441F371C97002B0F55 /* ViewController.swift */; };
+		EA3B4F451F371C97002B0F55 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B4F441F371C97002B0F55 /* MainVC.swift */; };
 		EA3B4F481F371C97002B0F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B4F461F371C97002B0F55 /* Main.storyboard */; };
 		EA3B4F4A1F371C97002B0F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3B4F491F371C97002B0F55 /* Assets.xcassets */; };
 		EA3B4F4D1F371C97002B0F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3B4F4B1F371C97002B0F55 /* LaunchScreen.storyboard */; };
+		EA3B4F571F372525002B0F55 /* customTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B4F561F372525002B0F55 /* customTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA3B4F3F1F371C97002B0F55 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B4F421F371C97002B0F55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA3B4F441F371C97002B0F55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3B4F441F371C97002B0F55 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		EA3B4F471F371C97002B0F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA3B4F491F371C97002B0F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA3B4F4C1F371C97002B0F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA3B4F4E1F371C97002B0F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3B4F561F372525002B0F55 /* customTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		EA3B4F411F371C97002B0F55 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				EA3B4F551F3724F9002B0F55 /* View */,
+				EA3B4F541F371F1F002B0F55 /* Controller */,
 				EA3B4F421F371C97002B0F55 /* AppDelegate.swift */,
-				EA3B4F441F371C97002B0F55 /* ViewController.swift */,
 				EA3B4F461F371C97002B0F55 /* Main.storyboard */,
 				EA3B4F491F371C97002B0F55 /* Assets.xcassets */,
 				EA3B4F4B1F371C97002B0F55 /* LaunchScreen.storyboard */,
 				EA3B4F4E1F371C97002B0F55 /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		EA3B4F541F371F1F002B0F55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B4F441F371C97002B0F55 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA3B4F551F3724F9002B0F55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA3B4F561F372525002B0F55 /* customTxtField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA3B4F451F371C97002B0F55 /* ViewController.swift in Sources */,
+				EA3B4F451F371C97002B0F55 /* MainVC.swift in Sources */,
 				EA3B4F431F371C97002B0F55 /* AppDelegate.swift in Sources */,
+				EA3B4F571F372525002B0F55 /* customTxtField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
